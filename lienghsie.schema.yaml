@@ -4,7 +4,7 @@
 schema:
   schema_id: lienghsie
   name: 臨縣話晉拼
-  version: '0.1'
+  version: '0.2'
   author:
     - Skanda
   description: |
@@ -56,6 +56,10 @@ speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
   delimiter: " '"
   algebra:
+    # 模糊尖團
+    - derive/^ds(i[aeo])/j$1/
+    - derive/^ts(i[aeo])/c$1/
+    - derive/^s(i[aeo])/hs$1/
     # 定製模糊音以儘量符合漢語拼音使用者習慣
     # 聲母
     - derive/^c/q/                     # q => c
