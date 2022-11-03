@@ -3,7 +3,7 @@
 
 ---
 name: lienghsie
-version: "2022.11.02"
+version: "2022.11.03"
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -1384,13 +1384,13 @@ import_tables:
 奠	die
 佃	die
 墊	die
-添	thie
-天	thie
-甜	thie
-田	thie
-填	thie
-舔	thie
-腆	thie
+添	tie
+天	tie
+甜	tie
+田	tie
+填	tie
+舔	tie
+腆	tie
 黏	nie
 淹	nie
 安	nie
